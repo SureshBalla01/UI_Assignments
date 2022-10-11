@@ -1,0 +1,80 @@
+.html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 24, 83);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:white;
+    width: 30%;
+    height: 80%;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 95%;
+    height: 30px;
+    border: 1.5px solid #277aa0;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(207, 200, 200);
+    border:1px rgb(130, 127, 127)
+}
+
+.fpwd {
+    text-align: right;
+    margin-top: -15px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.submit {
+    background-color: rgb(18, 114, 18) ;
+    width: 97%;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    width: 480px;
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+}
