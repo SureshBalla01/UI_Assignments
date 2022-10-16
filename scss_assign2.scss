@@ -1,0 +1,68 @@
+@mixin flex($align: center, $direction: row) {
+    display: flex;
+    justify-content: $align;
+    align-items: center;
+    flex-direction: $direction;
+  }
+  body {
+    @include flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    @include flex(space-evenly);
+    width: 800px;
+    height: 350px;
+    background: rgb(158, 156, 156);
+    margin-top: 30px;
+  }
+  .box-1 {
+    @include flex;
+    background: rgb(230, 81, 81);
+    width: 35%;
+    height: 90%;
+  }
+  .section-2 {
+    @include flex(space-between, column);
+    width: 55%;
+    height: 90%;
+  }
+  .box-2 {
+    @include flex;
+    background: rgb(164, 241, 92);
+    width: 100%;
+    height: 40%;
+  }
+  .section-3 {
+    @include flex(space-between, row);
+    width: 100%;
+    height: 50%;
+  }
+  .box-3 {
+    @include flex;
+    background: pink;
+    width: 47%;
+    height: 100%;
+  }
+  .section-4 {
+    @include flex(space-between, column);
+    width: 47%;
+    height: 100%;
+  }
+  .box-4a {
+    @include flex;
+    background: rgb(82, 115, 223);
+    width: 100%;
+    height: 45%;
+  }
+  .box-4b {
+    @include flex;
+    background: rgb(82, 115, 223);
+    width: 100%;
+    height: 45%;
+  }
+  
